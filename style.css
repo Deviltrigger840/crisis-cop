@@ -123,3 +123,24 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
+/* Home section specific style */
+#home {
+  background: linear-gradient(to right, #e0f7fa, #e3f2fd);
+  border-left: 5px solid #2980b9;
+  padding: 60px 30px;
+  border-radius: 10px;
+}
+
+#home h1 {
+  font-size: 30px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+#home p {
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.7;
+}

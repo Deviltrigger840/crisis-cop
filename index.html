@@ -1,107 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Crisis-cop</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crisis-cop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Crisis-cop</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#research-framework">Research Framework</a></li>
+          <li><a href="#milestones">Milestones</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="logo">Crisis-cop</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#research-framework">Research Framework:</a></li>
-        <li><a href="#milestones">Milestones</a></li>
-        <li><a href="#documents">Documents</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <!-- Sections -->
+    <section id="home">
+      <h1>CrisisCop: Intelligent Security Patrol Robot</h1>
+      <p>
+        The research endeavors to develop an effective and scalable patrol robot
+        system that is capable of dealing with dynamic settings with enhanced
+        adaptability and wisdom. It combines path adjustment through
+        reinforcement learning-based method, LIDAR-SLAM for avoiding obstacles,
+        and GPS-Waypoint navigation for adaptive traversing.
+      </p>
+      <p>
+        The system further suggests a sensor-based approach for adaptive patrol
+        routes, predicted weather conditions, air quality, and body health
+        parameters. The system accommodates seamless collaboration between slave
+        robots using real-time communication and decision-making operations,
+        assigning them in accordance with location, battery, and environmental
+        parameters.
+      </p>
+      <p>
+        Real-time decision-making, proactive response, and optimal utilization
+        of resources are ensured using Edge Computing, IoT, and Machine Learning
+        (ML) techniques.
+      </p>
+    </section>
+
+    <section id="research-framework">
+      <h2>Research Framework</h2>
+
+      <h3>Literature Survey</h3>
+      <p>
+        This project enhances slave robots' adaptability by integrating external
+        environmental data (e.g., gas, humidity, pressure) with internal health
+        metrics (e.g., voltage, temperature) for proactive maintenance and
+        real-time response. Unlike past studies, it introduces short-term
+        environmental forecasting and dynamic power optimization based on
+        environmental stressors. Combining sensor fusion with traction control
+        and alert systems, it creates a holistic, adaptive robot system for
+        resilient operation in diverse and changing warehouse conditions.
+      </p>
+
+      <h3>Overview</h3>
+      <p>
+        Aimed to design an autonomous outdoor patrol robot that can travel in
+        the diverse terrain and weather conditions while being very reliable. In
+        operation, real-time environmental analysis has adapted to these
+        physical systems. These are designed for various groups including
+        security teams, facility managers, or organizations seeking scalable
+        surveillance solutions. The challenges in multi-sensor fusion algorithms
+        involve the handling of missing and noisy data. It implements a strong
+        algorithm that can make meaningful insights even from incomplete or
+        unreliable data, hence enhancing the ability of the robots to make
+        accurate environmental predictions for optimum performance. For now, the
+        functionalities are being simulated with python.
+      </p>
+
+      <h3>Research Gap</h3>
+
+      <h3>Problem Statement</h3>
+      <p>
+        Traditional patrol systems struggle with adaptability, decision-making,
+        and coordination in dynamic environments. This causes inefficiencies in
+        navigation, monitoring, and resource use. A scalable, intelligent robot
+        system is needed—capable of responding to real-time changes in
+        environment and robot health—through integrated sensing, machine
+        learning, and advanced communication technologies.
+      </p>
+
+      <h3>Research Objective</h3>
+      <ul>
+        <li>
+          Develop an energy-efficient algorithm that minimizes power consumption
+          while ensuring real-time monitoring and secure data transmission
+          through edge computing.
+        </li>
+        <li>
+          Design a robotic system with Lidar, and GPS that patrols the
+          warehouses autonomously. The route should automatically be updated
+          according to environmental conditions.
+        </li>
+        <li>
+          A sensor-based system for slave robots enabling adaptive weather and
+          AQI prediction, fault detection, and traction control. It uses
+          real-time IoT data and a web dashboard to ensure reliable performance
+          and autonomous decision-making.
+        </li>
+        <li>
+          An algorithm enabling real-time communication and coordination among
+          robots, reducing latency and response time. It also autonomously
+          detects incidents and dynamically adjusts patrol routes for enhanced
+          coverage.
+        </li>
       </ul>
-    </div>
-  </nav>
 
-  <!-- Sections -->
-  <section id="home">
-    <h1>Welcome to Our Project</h1>
-    <p>This is a one-page website showcasing project details.</p>
-  </section>
+      <h3>Methodology</h3>
+      <p>
+        The system combines Reinforcement Learning for adaptive path planning,
+        LIDAR-SLAM for real-time mapping and obstacle avoidance, and
+        GPS-waypoint navigation for precise routing. Onboard sensors monitor
+        environmental and health data, processed via machine learning for
+        predictive insights. Edge computing and IoT enable real-time
+        communication, while a distributed coordination system ensures
+        efficient, autonomous collaboration among slave robots.
+      </p>
+    </section>
 
-  <section id="research-framework">
-    <h2>Research Framework:</h2>
+    <section id="milestones">
+      <h2>Milestones</h2>
+      <ul>
+        <li>📌 Project Initiation</li>
+        <li>📌 Research & Development</li>
+        <li>📌 Prototype</li>
+        <li>📌 Final Report</li>
+      </ul>
+    </section>
 
-    <h3>Literature Survey</h3>
-    <p>This project enhances slave robots' adaptability by integrating external environmental data (e.g., gas, humidity, pressure) with internal health metrics (e.g., voltage, temperature) for proactive maintenance and real-time response. Unlike past studies, it introduces short-term environmental forecasting and dynamic power optimization based on environmental stressors. Combining sensor fusion with traction control and alert systems, it creates a holistic, adaptive robot system for resilient operation in diverse and changing warehouse conditions.</p>
+    <section id="documents">
+      <h2>Documents</h2>
+      <p>Click below to view project documents:</p>
+      <a href="files/sample.pdf" target="_blank" class="btn">View Sample PDF</a>
+    </section>
 
-    <h3>Overview</h3>
-    <p>Aimed to design an autonomous outdoor patrol robot that can travel in the diverse terrain and weather conditions while being very reliable. In operation, real-time environmental analysis has adapted to these physical systems. These are designed for various groups including security teams, facility managers, or organizations seeking scalable surveillance solutions. The challenges in multi-sensor fusion algorithms involve the handling of missing and noisy data. It implements a strong algorithm that can make meaningful insights even from incomplete or unreliable data, hence enhancing the ability of the robots to make accurate environmental predictions for optimum performance. For now, the functionalities are being simulated with python.</p>
+    <section id="team">
+      <h2>Team</h2>
+      <p>List your team members here.</p>
+    </section>
 
-    <h3>Research Gap</h3>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: example@email.com</p>
+      <p>Phone: +123 456 7890</p>
+    </section>
 
-    <h3>Problem Statement</h3>
-    <p>Traditional patrol systems struggle with adaptability, decision-making, and coordination in dynamic environments. This causes inefficiencies in navigation, monitoring, and resource use. A scalable, intelligent robot system is needed—capable of responding to real-time changes in environment and robot health—through integrated sensing, machine learning, and advanced communication technologies.</p>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Crisis-cop. All rights reserved.</p>
+    </footer>
 
-    <h3>Research Objective</h3>
-    <ul>
-      <li>Develop an energy-efficient algorithm that minimizes power consumption while ensuring real-time monitoring and secure data transmission through edge computing.</li>
-      <li>Design a robotic system with Lidar, and GPS that patrols the warehouses autonomously. The route should automatically be updated according to environmental conditions.</li>
-      <li>A sensor-based system for slave robots enabling adaptive weather and AQI prediction, fault detection, and traction control. It uses real-time IoT data and a web dashboard to ensure reliable performance and autonomous decision-making.</li>
-      <li>An algorithm enabling real-time communication and coordination among robots, reducing latency and response time. It also autonomously detects incidents and dynamically adjusts patrol routes for enhanced coverage.</li>
-    </ul>
-
-    <h3>Methodology</h3>
-    <p>The system combines Reinforcement Learning for adaptive path planning, LIDAR-SLAM for real-time mapping and obstacle avoidance, and GPS-waypoint navigation for precise routing. Onboard sensors monitor environmental and health data, processed via machine learning for predictive insights. Edge computing and IoT enable real-time communication, while a distributed coordination system ensures efficient, autonomous collaboration among slave robots.</p>
-  </section>
-
-  <section id="milestones">
-    <h2>Milestones</h2>
-    <ul>
-      <li>📌 Project Initiation</li>
-      <li>📌 Research & Development</li>
-      <li>📌 Prototype</li>
-      <li>📌 Final Report</li>
-    </ul>
-  </section>
-
-  <section id="documents">
-    <h2>Documents</h2>
-    <p>Click below to view project documents:</p>
-    <a href="files/sample.pdf" target="_blank" class="btn">View Sample PDF</a>
-  </section>
-
-  <section id="team">
-    <h2>Team</h2>
-    <p>List your team members here.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: example@email.com</p>
-    <p>Phone: +123 456 7890</p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Crisis-cop. All rights reserved.</p>
-  </footer>
-
-  <!-- Smooth Scroll JS -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          window.scrollTo({
-            top: target.offsetTop - 70,
-            behavior: 'smooth'
-          });
-        }
+    <!-- Smooth Scroll JS -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            window.scrollTo({
+              top: target.offsetTop - 70,
+              behavior: "smooth",
+            });
+          }
+        });
       });
-    });
-  </script>
-
-</body>
+    </script>
+  </body>
 </html>
