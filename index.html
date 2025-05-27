@@ -5,6 +5,7 @@
     <title>Crisis-cop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -129,23 +130,161 @@
 
     <section id="milestones">
       <h2>Milestones</h2>
-      <ul>
-        <li>📌 Project Initiation</li>
-        <li>📌 Research & Development</li>
-        <li>📌 Prototype</li>
-        <li>📌 Final Report</li>
-      </ul>
+
+      <div class="milestone">
+        <h3>Milestone 1: Requirement Analysis and System Design</h3>
+        <p>
+          Define project goals and key use cases. Select hardware like
+          master/slave robots, sensors, and software tools such as ROS and
+          TensorFlow. Design the system architecture integrating edge computing,
+          IoT, and machine learning.
+        </p>
+        <p><strong>Timeline:</strong> Week 1–2</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 2: Hardware Integration and Sensor Setup</h3>
+        <p>
+          Assemble the robot units and install essential sensors including
+          weather, gas, and health monitors. Test GPS and LIDAR modules to
+          ensure basic navigation capabilities.
+        </p>
+        <p><strong>Timeline:</strong> Week 3–4</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 3: Environment Data Collection and Preprocessing</h3>
+        <p>
+          Collect sensor data during patrols and clean it by handling noise and
+          missing values. Prepare labeled datasets to support supervised
+          learning models.
+        </p>
+        <p><strong>Timeline:</strong> Week 5–6</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 4: Machine Learning Model Development</h3>
+        <p>
+          Train and optimize machine learning models for predicting weather and
+          air quality. Validate their accuracy and deploy them on edge devices
+          for real-time inference.
+        </p>
+        <p><strong>Timeline:</strong> Week 7–8</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 5: Navigation and Obstacle Avoidance Implementation</h3>
+        <p>
+          Implement GPS waypoint navigation and integrate LIDAR-SLAM for
+          real-time obstacle detection. Develop reinforcement learning
+          algorithms to enable adaptive path planning.
+        </p>
+        <p><strong>Timeline:</strong> Week 9–10</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 6: Slave Robot Coordination and Communication</h3>
+        <p>
+          Create protocols for real-time inter-robot communication. Implement
+          autonomous decision-making based on battery status, location, and
+          environmental inputs to ensure efficient collaboration.
+        </p>
+        <p><strong>Timeline:</strong> Week 11–12</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 7: System Integration and Testing</h3>
+        <p>
+          Combine all modules into a cohesive system. Perform simulations and
+          field tests in varied conditions to identify and fix issues for
+          optimal performance.
+        </p>
+        <p><strong>Timeline:</strong> Week 13–14</p>
+      </div>
+
+      <div class="milestone">
+        <h3>Milestone 8: Final Review and Documentation</h3>
+        <p>
+          Prepare comprehensive documentation and final project report. Develop
+          a demo video or presentation. Review project outcomes and measure
+          success against initial goals.
+        </p>
+        <p><strong>Timeline:</strong> Week 15</p>
+      </div>
     </section>
 
     <section id="documents">
-      <h2>Documents</h2>
-      <p>Click below to view project documents:</p>
-      <a href="files/sample.pdf" target="_blank" class="btn">View Sample PDF</a>
+      <h2>Project Documents</h2>
+      <div class="pdf-grid">
+        <a href="docs/Final Research.pdf" target="_blank" class="pdf-button"
+          >Final Research</a
+        >
+        <a href="docs/doc2.pdf" target="_blank" class="pdf-button"
+          >Document 2</a
+        >
+        <a href="docs/doc3.pdf" target="_blank" class="pdf-button"
+          >Document 3</a
+        >
+        <a href="docs/doc4.pdf" target="_blank" class="pdf-button"
+          >Document 4</a
+        >
+        <a href="docs/doc5.pdf" target="_blank" class="pdf-button"
+          >Document 5</a
+        >
+        <a href="docs/doc6.pdf" target="_blank" class="pdf-button"
+          >Document 6</a
+        >
+        <a href="docs/doc7.pdf" target="_blank" class="pdf-button"
+          >Document 7</a
+        >
+        <a href="docs/doc8.pdf" target="_blank" class="pdf-button"
+          >Document 8</a
+        >
+        <a href="docs/doc9.pdf" target="_blank" class="pdf-button"
+          >Document 9</a
+        >
+      </div>
     </section>
 
     <section id="team">
-      <h2>Team</h2>
-      <p>List your team members here.</p>
+      <h2>Meet Our Team</h2>
+
+      <div class="team-carousel-wrapper">
+        <button class="team-arrow prev" onclick="scrollTeam(-1)">
+          &#10094;
+        </button>
+
+        <div class="team-carousel" id="teamCarousel">
+          <div class="team-member">
+            <img src="images/member1.jpg" alt="Team Member 1" />
+            <h3>John Doe</h3>
+          </div>
+          <div class="team-member">
+            <img src="images/member2.jpg" alt="Team Member 2" />
+            <h3>Jane Smith</h3>
+          </div>
+          <div class="team-member">
+            <img src="images/member3.jpg" alt="Team Member 3" />
+            <h3>Robert Johnson</h3>
+          </div>
+          <div class="team-member">
+            <img src="images/member4.jpg" alt="Team Member 4" />
+            <h3>Alice Brown</h3>
+          </div>
+          <div class="team-member">
+            <img src="images/member5.jpg" alt="Team Member 5" />
+            <h3>Mary Lee</h3>
+          </div>
+          <div class="team-member">
+            <img src="images/member6.jpg" alt="Team Member 6" />
+            <h3>James Williams</h3>
+          </div>
+        </div>
+
+        <button class="team-arrow next" onclick="scrollTeam(1)">
+          &#10095;
+        </button>
+      </div>
     </section>
 
     <section id="contact">
